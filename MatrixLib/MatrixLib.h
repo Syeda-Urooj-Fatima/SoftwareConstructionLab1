@@ -2,11 +2,11 @@
 
 #pragma once
 
-using namespace System;
+//using namespace System;
 
 namespace MatrixLib {
 
-	public ref class Class1
+	class __declspec(dllexport) Class1
 	{
 		// TODO: Add your methods for this class here.
 		public:

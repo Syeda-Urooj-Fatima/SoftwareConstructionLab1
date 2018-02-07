@@ -1,17 +1,14 @@
-﻿Build started 07/02/2018 1:33:51 PM.
+﻿Build started 07/02/2018 1:56:27 PM.
      1>Project "C:\Users\sfatima.bese15seecs\Documents\GitHub\MatrixClient\LabClient\LabClient.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\sfatima.bese15seecs\Documents\GitHub\MatrixClient\MatrixLib /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\LabClient.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LabClient.cpp
          LabClient.cpp
-     1>c:\users\sfatima.bese15seecs\documents\github\matrixclient\matrixlib\matrixlib.h(5): error C2871: 'System' : a namespace with this name does not exist
-     1>c:\users\sfatima.bese15seecs\documents\github\matrixclient\matrixlib\matrixlib.h(9): error C2059: syntax error : 'public'
-     1>c:\users\sfatima.bese15seecs\documents\github\matrixclient\matrixlib\matrixlib.h(10): error C2143: syntax error : missing ';' before '{'
-     1>c:\users\sfatima.bese15seecs\documents\github\matrixclient\matrixlib\matrixlib.h(10): error C2447: '{' : missing function header (old-style formal list?)
-     1>c:\users\sfatima.bese15seecs\documents\github\matrixclient\labclient\labclient.cpp(28): error C3083: 'Class1': the symbol to the left of a '::' must be a type
-     1>c:\users\sfatima.bese15seecs\documents\github\matrixclient\labclient\labclient.cpp(28): error C2039: 'addition' : is not a member of 'MatrixLib'
-     1>c:\users\sfatima.bese15seecs\documents\github\matrixclient\labclient\labclient.cpp(28): error C3861: 'addition': identifier not found
-     1>Done Building Project "C:\Users\sfatima.bese15seecs\Documents\GitHub\MatrixClient\LabClient\LabClient.vcxproj" (Build target(s)) -- FAILED.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sfatima.bese15seecs\Documents\GitHub\MatrixClient\Debug\LabClient.exe" /INCREMENTAL /NOLOGO MatrixLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\sfatima.bese15seecs\Documents\GitHub\MatrixClient\Debug\LabClient.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sfatima.bese15seecs\Documents\GitHub\MatrixClient\Debug\LabClient.lib" /MACHINE:X86 Debug\LabClient.obj
+         Debug\stdafx.obj
+         LabClient.vcxproj -> C:\Users\sfatima.bese15seecs\Documents\GitHub\MatrixClient\Debug\LabClient.exe
+     1>Done Building Project "C:\Users\sfatima.bese15seecs\Documents\GitHub\MatrixClient\LabClient\LabClient.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.59
+Time Elapsed 00:00:01.39
