@@ -12,4 +12,7 @@ Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c5619
 Class MatrixLib.Class1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
+    addition($ArrayType$$$BY02H* IsConst IsConst, $ArrayType$$$BY02H* IsConst IsConst): PrivateScope, Public, Static, HideBySig
+    subtract($ArrayType$$$BY02H* IsConst IsConst, $ArrayType$$$BY02H* IsConst IsConst): PrivateScope, Public, Static, HideBySig
     multiply($ArrayType$$$BY02H* IsConst IsConst, $ArrayType$$$BY02H* IsConst IsConst): PrivateScope, Public, Static, HideBySig
+    inverse($ArrayType$$$BY02H* IsConst IsConst): PrivateScope, Public, Static, HideBySig
